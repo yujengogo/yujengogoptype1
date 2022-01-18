@@ -23,7 +23,7 @@ header {
   color: #fff;
   border-style:outset;
   border-bottom-style: var(--redColorBlock);
-  border-radius: 20px;
+/*border no show*/
 }
 header h1 {
   font-size: 150%;
@@ -44,4 +44,28 @@ nav a:hover {
   background-color: var(--lightColorBlock);
   color: #fff;
   text-decoration: underline;
+}
+.box1 {
+  background-color: var(--lightColorBlock);
+width:150px;
+height:300px;
+border: 5px var(--redColorBlock)
+/*border no show*/
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+main aside {
+  flex: 1;
+  padding: 20px;
+  text-align: right;
+display: block;
+background-color: var(--lightColorBlock);
+}
+main section {
+  flex:4;
+  background-color: white;
+  padding: 20px;
+
 }
