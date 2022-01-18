@@ -21,3 +21,16 @@ header {
   text-align: left;
   background: var(--lightColorBlock);
   color: #fff;
+}
+nav {
+  padding: 20px;
+  text-align: right;
+  display: flex;
+  background-color: var(--lightColorBlock);
+}
+nav a {
+  color: var(--structuralElement);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
