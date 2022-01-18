@@ -22,7 +22,7 @@ header {
   background: var(--structuralElement);
   color: #fff;
   border-style:outset;
-  border-bottom-style: var(--redColorBlock);
+  border-bottom: solid 10px var(--redColorBlock);
 /*border no show*/
 }
 header h1 {
@@ -46,12 +46,14 @@ nav a:hover {
   text-decoration: underline;
 }
 .box1 {
-  background-color: var(--lightColorBlock);
-width:150px;
+  background-color: white;
+width:200px;
 height:300px;
-border: 5px var(--redColorBlock)
+border-bottom: solid 5px var(--redColorBlock);
+border-right: solid 5px var(--redColorBlock);
 /*border no show*/
 }
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -62,11 +64,13 @@ main aside {
   text-align: right;
 display: block;
 background-color: var(--lightColorBlock);
+border: var(--redColorBlock);
 }
 main section {
   flex:4;
   background-color: white;
   padding: 20px;
+  hight:300;
 
 }
 main h2 {
