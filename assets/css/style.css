@@ -69,3 +69,7 @@ main section {
   padding: 20px;
 
 }
+main h2 {
+  color: var(--redColorBlock);
+  font-size: 150%;
+}
