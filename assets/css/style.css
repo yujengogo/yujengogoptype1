@@ -21,13 +21,15 @@ header {
   text-align: left;
   background: var(--structuralElement);
   color: #fff;
+  border-style:outset;
+  border-bottom-style: var(--redColorBlock);
+  border-radius: 20px;
 }
 header h1 {
   font-size: 150%;
 }
 nav {
   float: right;
-  padding: 20px;
   text-align: center;
   display: flex;
   background-color: var(--structuralElement);
