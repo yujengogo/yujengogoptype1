@@ -84,9 +84,19 @@ main section {
   color: var(--structuralElement);
   font-size: 100%;
   text-align: left;
-  text-justify:;
 }
 main section img {
   border: var(--pixboarder);
   
+}
+.contactMe {
+  float: right;
+  text-align: center;
+  display: flex;
+}
+.contactMe a {
+  color: var(--lightColorBlock);
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
 }
