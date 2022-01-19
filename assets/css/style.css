@@ -84,6 +84,7 @@ main section {
   color: var(--structuralElement);
   font-size: 100%;
   text-align: left;
+  justify-content: center;
 }
 main section img {
   border: var(--pixboarder);
@@ -99,4 +100,11 @@ main section img {
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
+}
+footer {
+display: flex;
+justify-content: center;
+padding: 2%;
+background-color: var(--structuralElement);
+color: #fff;
 }
