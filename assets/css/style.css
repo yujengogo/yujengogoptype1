@@ -26,7 +26,7 @@ header {
 /*border no show*/
 }
 header h1 {
-  font-size: 150%;
+  font-size: 180%;
 }
 nav {
   float: right;
@@ -51,29 +51,37 @@ width:200px;
 height:300px;
 border-bottom: solid 5px var(--redColorBlock);
 border-right: solid 5px var(--redColorBlock);
-/*border no show*/
+flex: 1;
+vertical-align: text-bottom;
 }
 
 main {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 main aside {
-  flex: 1;
+  flex: 3;
   padding: 20px;
   text-align: right;
-display: block;
-background-color: var(--lightColorBlock);
-border: var(--redColorBlock);
+  display: block;
+  border: var(--redColorBlock);
 }
 main section {
-  flex:4;
+  flex:3;
   background-color: white;
   padding: 20px;
-  hight:300;
 
 }
-main h2 {
-  color: var(--redColorBlock);
-  font-size: 150%;
+.img {
+  flex: 1;
+  padding: 20px;
+
+}
+.about-me {
+  flex: 3;
+  color: var(--structuralElement);
+  font-size: 100%;
+  text-align: left;
+  text-justify:;
 }
