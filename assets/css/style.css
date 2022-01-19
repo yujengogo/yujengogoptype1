@@ -48,10 +48,9 @@ nav a:hover {
 .box1 {
   background-color: white;
 width:200px;
-height:300px;
+height:;
 border-bottom: solid 5px var(--redColorBlock);
 border-right: solid 5px var(--redColorBlock);
-flex: 1;
 vertical-align: text-bottom;
 }
 
