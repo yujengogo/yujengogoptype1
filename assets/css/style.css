@@ -23,7 +23,6 @@ header {
   color: #fff;
   border-style:outset;
   border-bottom: solid 10px var(--redColorBlock);
-/*border no show*/
 }
 header h1 {
   font-size: 180%;
@@ -48,14 +47,20 @@ nav a:hover {
 .box1 {
   background-color: white;
 width:200px;
-height:;
+height: 330px;
 border-bottom: solid 5px var(--redColorBlock);
 border-right: solid 5px var(--redColorBlock);
 vertical-align: text-bottom;
 /* text should be flush bottom right */
 color: var(--redColorBlock);
+position: relative;
 }
-
+.tabs {
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  right: 10%;
+}
 main {
   display: flex;
   flex-wrap: wrap;
@@ -80,11 +85,19 @@ main section {
 
 }
 .about-me {
+  display: flex;
   flex: 3;
   color: var(--structuralElement);
   font-size: 100%;
   text-align: left;
-  justify-content: center;
+  position: relative;
+}
+.about-me p{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
 }
 main section img {
   border: var(--pixboarder);
