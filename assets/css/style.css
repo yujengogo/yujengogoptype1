@@ -52,6 +52,8 @@ height:;
 border-bottom: solid 5px var(--redColorBlock);
 border-right: solid 5px var(--redColorBlock);
 vertical-align: text-bottom;
+/* text should be flush bottom right */
+color: var(--redColorBlock);
 }
 
 main {
