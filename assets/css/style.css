@@ -67,6 +67,24 @@ border-right: solid 5px var(--redColorBlock);
 color: var(--redColorBlock);
 position: relative;
 }
+.box2 {
+  background-color: white;
+width:200px;
+height: 660px;
+border-bottom: solid 5px var(--redColorBlock);
+border-right: solid 5px var(--redColorBlock);
+color: var(--redColorBlock);
+position: relative;
+}
+.box3 {
+  background-color: white;
+width:200px;
+height: 220px;
+border-bottom: solid 5px var(--redColorBlock);
+border-right: solid 5px var(--redColorBlock);
+color: var(--redColorBlock);
+position: relative;
+}
 .tabs {
   margin: 0;
   position: absolute;
@@ -88,6 +106,8 @@ main section {
   flex:3;
   background-color: white;
   padding: 20px;
+  resize: none;
+  overflow: auto;
 }
 
 .self {
