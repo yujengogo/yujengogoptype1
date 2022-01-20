@@ -43,6 +43,21 @@ nav a:hover {
   color: #fff;
   text-decoration: underline;
 }
+.imageText {
+  text-align: justify;
+  width: auto;
+}
+.imageText img {
+  display: block;
+  margin: 0;
+}
+/* #makeBig:hover{ */
+  /* position:relative; */
+  /* width:300px; */
+  /* height:auto; */
+  /* display:block; */
+  /* z-index:1; */
+/* } */
 .box1 {
   background-color: white;
 width:200px;
@@ -74,6 +89,7 @@ main section {
   background-color: white;
   padding: 20px;
 }
+
 .self {
   flex: 1;
   padding: 20px;
