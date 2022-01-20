@@ -6,7 +6,6 @@
   --redColorBlock: #d10303;
   --lightColorBlock: #a5a5a5;
   --pixboarder: solid 10px var(--lightColorBlock);
-
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -50,8 +49,6 @@ width:200px;
 height: 330px;
 border-bottom: solid 5px var(--redColorBlock);
 border-right: solid 5px var(--redColorBlock);
-vertical-align: text-bottom;
-/* text should be flush bottom right */
 color: var(--redColorBlock);
 position: relative;
 }
@@ -76,13 +73,10 @@ main section {
   flex:3;
   background-color: white;
   padding: 20px;
-
 }
 .self {
   flex: 1;
   padding: 20px;
-
-
 }
 .about-me {
   display: flex;
@@ -123,4 +117,21 @@ justify-content: center;
 padding: 2%;
 background-color: var(--structuralElement);
 color: #fff;
+}
+@media screen and (max-width 992px) {
+  section {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width 768px) {
+  section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width 576) {
+  section {
+    width: 100%;
+  }
 }
