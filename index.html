@@ -1,79 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Yujengogo Portfolio</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yujen's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <h1>Yujengogo</h1>
-    <nav>
-        <a href="#aboutMeId">About Me</a>
-        <a href="#PerviousWorkId">Previous Work</a>
-        <a href="#contactId">Contact</a>  
-    </nav>
-</header>
-<main>
-    <div class="box1">
-        <aside id="aboutMeId">
-        <h2 class="tabs">About Me</h2>
-        </aside>
-    </div>    
-    <section class="self">
-        <img src="https://scontent.fewr1-6.fna.fbcdn.net/v/t1.6435-9/43322193_10156698221078996_7500507951161933824_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=V_5M78ROaXQAX9fWqiQ&tn=AO2ghwRHhcYAgJ8t&_nc_ht=scontent.fewr1-6.fna&oh=00_AT930C39d3KdKrye6awrI2DQuHGQwQUsCSQ5MQlYc4yvjA&oe=620CE92B" alt= "photo" style= "height:280px;">
-    </section>
-    <section class="about-me">
-        <p>Yujen Chen is a manager of store development with experience managing national retail operation and construction field. His background in construction management, bid leveling, and negotiation skills inform his mindful but pompetitive approach.</h2>
-        
-    </section>
-</main>
-<main>
-    <div class="box2">
-        <aside id="PerviousWorkId">
-            <h2 class="tabs">Previous Work</h2>
-        </aside>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <!-- left side of the header -->
+        <div>
+            <h1 id="my-name">Yujengogo</h1>
+        </div>
+
+        <!-- right side of the header -->
+        <div class="navbar">
+            <a class="nav-item" href="#">About Me</a>
+            <a class="nav-item" href="#">Previous Work</a>
+            <a class="nav-item" href="#">Contact</a>
+        </div>
     </div>
 
-    <section>
-        <div class="imageText" >
-            <a href="#">MUJI Cooper Square</a>
-            <img src="assets\image\5th_P.JPG" alt= "photo" id= "makeBig" style= "height:280px" id= "makeBig">
+    <div class="main">
+        <div class="about-me">
+            <div class="aside">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-me-content">
+                <img src="https://scontent.fewr1-6.fna.fbcdn.net/v/t1.6435-9/43322193_10156698221078996_7500507951161933824_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=V_5M78ROaXQAX9fWqiQ&tn=AO2ghwRHhcYAgJ8t&_nc_ht=scontent.fewr1-6.fna&oh=00_AT930C39d3KdKrye6awrI2DQuHGQwQUsCSQ5MQlYc4yvjA&oe=620CE92B"
+                    alt="" id="about-me-img">
+                <p>Yujen Chen is a manager of store development with experience managing national retail operation and
+                    construction field. His background in construction management, bid leveling, and negotiation skills
+                    inform his mindful but pompetitive approach.</p>
+            </div>
         </div>
-    </section>
-    <section>
-        <div class="imageText" >
-            <a href="#">MUJI Time Square</a>
-            <img src="assets\image\street.JPG" alt= "photo" style= "height:280px;" id= "makeBig">
+        <div class="previous-work">
+            <div class="aside">
+                <h2>Previous Work</h2>
+            </div>
+            <div class="previous-work-content">
+                <a href="#">MUJI Cooper Square</a>
+                <img src="../assets/image/5th_P.JPG" alt="">
+            </div>
+            <div class="previous-work-content">
+                <a href="#">MUJI Time Square</a>
+                <img src="../assets/image/5th_P.JPG" alt="">
+            </div>
+            <div class="previous-work-content">
+                <a href="#">MUJI Portland</a>
+                <img src="../assets/image/5th_P.JPG" alt="">
+            </div>
+            <div class="previous-work-content">
+                <a href="#">MUJI 5th Ave</a>
+                <img src="../assets/image/5th_P.JPG" alt="">
+            </div>
         </div>
-    </section>
-    <section>
-        <div class="imageText" >
-            <a href="#">MUJI Portland</a>
-            <img src="assets\image\inside_store.JPG" alt= "photo" style= "height:280px;" id= "makeBig">
+        <div class="contact">
+            <div class="aside">
+                <h2>Contact</h2>
+            </div>
+            <div class="contact-contant">
+                <a href="#">Email: yujengogo@gmail.com</a>
+                <a href="#">Linkedin</a>
+            </div>
+
         </div>
-    </section>
-    <section>
-        <div class="imageText" >
-            <a href="#">MUJI 5th Ave</a>
-            <img src="assets\image\Streetlook.JPG" alt= "photo" style= "height:280px;" id= "makeBig">
-        </div>
-    </section>
-</main>
-<main>
-    <div class="box3">
-        <aside id="contactId">
-            <h2 class="tabs">Contact</h2>
-        </aside>
     </div>
-    <section class="contactMe">
-        <a href="#">Email: yujengogo@gmail.com</a>
-        <a href="#">Linkedin</a>
-    </section>
-</main>
-<footer>
-    <span>Enjoy the rest of your day!</span>
-</footer>
+</body>
+
 </html>
