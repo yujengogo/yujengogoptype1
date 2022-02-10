@@ -16,8 +16,8 @@
         justify-content: flex-start;
       }
 .header {
-    height: 200px;
-    background-color: var(--lightColorBlock);
+    height: 150px;
+    background-color: var(--structuralElement);
     border-bottom: 10px solid var(--redColorBlock);
     display: flex;
     flex-direction: row;
@@ -26,45 +26,68 @@
 }
 
 #my-name {
-    margin-left: 50px;
+    margin-left: 100px;
     color: white;
+    font-size: 180%;
 }
-
-/* .navbar {
-    display: flex;
-    flex-direction: row;
-} */
 
 .nav-item {
     /* display: block; */
     margin: 20px;
+    color: var(--lightColorBlock);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-item:hover {
+    background-color: var(--lightColorBlock);
+    color: #fff;
+    text-decoration: underline;
 }
 
 .about-me {
     display: flex;
     flex-direction: row;   
 }
+
 .previous-work {
     display: flex;
     flex-direction: row;   
 }
-.previous-work-contant {
+
+.previous-work-content {
+    margin: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
+
 .PWImg {
-    max-width: 73%;
+    max-width: 60%;
     height: auto;
+    border: var(--pixboarder);
 }
 .contact {
     display: flex;
     flex-direction: row;   
+   
+}
+.contact-content{
+    align-items: center;
+    margin: 20px;
+}
+.contact-content a {
+    margin: 20px;
+    color: var(--structuralElement);
+    text-decoration: none;
 }
 
 .aside {
-    width: 300px;
-    border-right: 5px solid var(--redColorBlock);
-    border-bottom: 5px solid var(--redColorBlock);
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-bottom: 10px solid var(--redColorBlock);
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -78,15 +101,42 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
-
+.about-me-content img {
+    border: var(--pixboarder);
+}
 .about-me-content p {
     color: var(--redColorBlock);
     margin: 20px;
 }
     
-
 #about-me-img {
     height: 300px;
     margin: 20px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: var(--structuralElement);
+    color: #fff;
+    }
+@media screen and (max-width 992px) {
+    section {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width 768px) {
+    section {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width 576) {
+    section {
+      width: 100%;
+    }
+  }
