@@ -57,7 +57,7 @@
 }
 
 .previous-work-content {
-    margin: 20px;
+    margin-left: 45px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
